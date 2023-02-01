@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "outDir": "./build/",
+    "types": ["node"],
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "importHelpers": true,
+    "module": "CommonJS",
+    "target": "ES6",
+    "lib": ["DOM", "DOM.Iterable", "ES6"],
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*", "build-tools/**/*"],
+  "exclude": ["node_modules/**/*"]
+}
